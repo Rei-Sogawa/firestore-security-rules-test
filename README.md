@@ -1,4 +1,4 @@
-テスト実行方法
+### テスト実行方法
 
 ```
 firebase emulators:start
@@ -6,7 +6,7 @@ cd test
 npm test
 ```
 
-エラー内容
+### エラー内容
 
 ```
   Out social app
@@ -34,6 +34,6 @@ false for 'list' @ L5, Unsupported operation error. Received: list.hasAny(constr
 npm ERR! Test failed.  See above for more details.
 ```
 
-その他
+### その他
 
 - debug メソッドを使うと firestore-debug.log に引数の値が出力されます。
